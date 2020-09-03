@@ -1,0 +1,47 @@
+.background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("/img/img.jpg");        
+    background-size: cover;            
+}
+
+.container1{
+    margin: 180px 140px 180px 100px;
+}   
+
+.head{
+    // display: flex;
+    
+    .logo{
+        float: left;
+        text-align: left;
+        font-size: 56px;
+        color: #F84444;
+        width: 400px;
+        img{
+            margin-top: -10px;
+        }        
+    }
+    
+    .menu{        
+        float: right;
+        margin-top: 40px;
+        text-align: right;
+        a{
+            color: #FFFF;
+            margin-left: 50px;
+        }
+    }
+}
+
+.utp{    
+    margin-top: 100px;
+    .utp__zaglav{
+        font-size: 76px;
+    }
+    hr{
+        color: #FFFF;
+        height: 5px;
+    }
+}
