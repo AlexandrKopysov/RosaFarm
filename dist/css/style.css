@@ -75,9 +75,38 @@ h6 {
   font-size: 76px;
 }
 
+.utp .utp__text {
+  width: 700px;
+}
+
 .utp hr {
   color: #FFFF;
-  height: 5px;
+  margin: -20px 0 50px 0;
+  border-top: 1px solid #ffffff;
+}
+
+.utp__footer .utp__footer-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  text-align: left;
+}
+
+.utp__footer .utp__footer-stats .utp__footer-stats-block {
+  margin: 30px 50px 0 0;
+}
+
+.utp__footer .utp__footer-stats .utp__footer-stats-block span {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.utp__footer hr {
+  color: #FFFF;
+  margin: -20px 0 50px 0;
+  border-top: 1px solid #ffffff;
 }
 
 .webp .background {

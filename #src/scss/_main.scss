@@ -40,8 +40,40 @@
     .utp__zaglav{
         font-size: 76px;
     }
+    .utp__text{
+        width:700px ;
+    }
     hr{
         color: #FFFF;
-        height: 5px;
+        margin: -20px 0 50px 0;
+        // height: 5px;
+        border-top: 1px solid #ffffff;
     }
+}
+
+.utp__footer{
+    
+    .utp__footer-stats{
+        display: flex;
+        float: right;        
+        text-align: left;
+        .utp__footer-stats-block{
+            margin: 30px 50px 0 0;
+            span{
+                font-family: 'Roboto';
+                font-size: 26px;
+                font-weight: bold;
+            }
+        }
+    }
+    .utp__footer-sckrol{        
+        
+    }
+    hr{
+        color: #FFFF;
+        margin: -20px 0 50px 0;
+        // height: 5px;
+        border-top: 1px solid #ffffff;
+    }
+
 }
