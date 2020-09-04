@@ -32,6 +32,11 @@
             color: #FFFF;
             margin-left: 50px;
             letter-spacing: 0.2em;
+            // text-decoration: underline;            
+        }
+        a:hover{
+            text-decoration: none;
+            border-bottom:1px solid #F84444;
         }
     }
 }
@@ -43,7 +48,7 @@
     }
     .utp__text{
         width:800px ;
-        letter-spacing: 0.1em;
+        letter-spacing: 0.05em;
     }
     hr{
         color: #FFFF;
